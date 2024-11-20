@@ -5,7 +5,7 @@ export const plansMap = [
     description: "Get started with BlogGenius!",
     price: "Free",
     items: ["3 Blog Posts", "3 Transcription"],
-    paymentLink: "https://buy.stripe.com/test_28o00TbKDbuX34I6oo",
+    paymentLink: "https://buy.stripe.com/4gwbMc4vZapP81y288",
     priceId:
       process.env.NODE_ENV === "development"
         ? "price_1QLPKOJ3sF4bFVznvMhj1YwH"
@@ -15,9 +15,9 @@ export const plansMap = [
     id: "pro",
     name: "Pro",
     description: "All Blog Posts, let’s go!",
-    price: "19.99",
+    price: "30.00",
     items: ["Unlimited Blog Posts", "Unlimited Transcriptions"],
-    paymentLink: "https://buy.stripe.com/test_4gwdRJ15ZdD520E8wx",
+    paymentLink: "https://buy.stripe.com/5kA17yaUndC13Li4gh",
     priceId:
       process.env.NODE_ENV === "development"
         ? "price_1QLPKOJ3sF4bFVznXX5WWhq4"
@@ -28,4 +28,4 @@ export const plansMap = [
 export const ORIGIN_URL =
   process.env.NODE_ENV === "development"
     ? "http://localhost:3000"
-    : "https://bloggenius.vercel.app";
+    : "https://bloggenius-alpha.vercel.app";
